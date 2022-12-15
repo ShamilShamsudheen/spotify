@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="https://wwwmarketing.scdn.co/img/favicon-16x16.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="nav.css" type="text/css">
+    
+</head>
+<body>
+
+<header>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo-part">
+                <a href="https://open.spotify.com/"><img class="logo-image" src="data:image/png;base64,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" alt="">
+                </a>
+            </div>
+            <div class="topnav">
+                <a class="active" href="https://www.spotify.com/in-en/premium/" style="font-size: 14px;">Premium</a>
+                <a class="active" style="font-size: 14px;" href="https://support.spotify.com/in-en/?_gl=1*vjv5ip*_gcl_aw*R0NMLjE2NzA0ODU0MDguQ2owS0NRaUFrTUdjQmhDU0FSSXNBSVc2ZDBDU1lyVmFWZG5PYWU0YXBfNVhxRHZqMVVmb1ZPUEpUSE5Jd01NVWpsckFpWUNBZ0g2ZEtVc2FBa05kRUFMd193Y0I.*_gcl_dc*R0NMLjE2NzA0ODU0MDguQ2owS0NRaUFrTUdjQmhDU0FSSXNBSVc2ZDBDU1lyVmFWZG5PYWU0YXBfNVhxRHZqMVVmb1ZPUEpUSE5Jd01NVWpsckFpWUNBZ0g2ZEtVc2FBa05kRUFMd193Y0I.">Support</a>
+                <a class="active" style="font-size: 14px;" href="https://www.spotify.com/in-en/download/windows/">Download</a>
+                <a class="active" style="font-size: 14px;" href="#">|</a>
+                <a class="active" style="font-size: 14px;" href="https://www.spotify.com/in-en/signup">Sign up</a>
+                <a class="active" style="font-size: 14px;" href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1&_locale=en-IN">Log in</a>
+              </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="section-one">
+        <div class="section-one-left">
+            <div class="phone-symbol">
+                <img class="phone-image" src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b" alt="phone-image">
+            </div>
+            
+        </div>
+        <div class="phone-sensor"></div>
+        <div class="section-one-right">
+            <div class="text-part">
+                <h1 class="text-size">Play millions of songs <br> podcasts, for free.</h1>
+            </div>
+            <div class="button-space">
+                <a href="https://www.spotify.com/in-en/signup"><button class="button-text">GET SPOTIFY FREE</button></a>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<section>
+    <div class="section-two">
+        <h3 class="section-two-text">Why Spotify?</h3>
+        <div class="card-part">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.scdn.co/image/ab671c3d0000f430678067184805befd38aa0f57" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Play your favorites.</h5>
+                  <p class="card-text">Listen to the songs you love, and <br> discover new music and <br> podcasts.</p>
+                  
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.scdn.co/image/ab671c3d0000f430a6f822749d5c25c32ee31d66" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Playlists made easy.</h5>
+                  <p class="card-text">We'll help you make playlists. Or <br> enjoy playlists made by music <br> experts.</p>
+                  
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.scdn.co/image/ab671c3d0000f430eb43023b5332389f5094530d" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Make it yours.</h5>
+                  <p class="card-text">Tell us what you like, and we'll <br> recommend music for you.</p>
+                  
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.scdn.co/image/ab671c3d0000f4309430062bc28461dc8fbde6bc" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Save mobile data.</h5>
+                  <p class="card-text">To use less data when you play <br> music, turn on Data Saver in <br> Settings.</p>
+                  
+                </div>
+            </div>
+        </div>       
+    </div>
+</section>
+<div class="space"></div>
+<section>
+    <div class="section-three">
+        <h1 class="secion-three-text">It's free. <br>
+            No credit card required.</h1>
+    </div>
+</section>
+<section>
+    <div class="section-four">
+        <h2 class="section-four-text">Got questions?</h2>
+        <div class="section-four-part">
+            <div class="part-one">
+                <ul class="un-list-section-4">
+                    <li class="section-4-list-1">
+                      <a class="a-tag-section-four" href="#">How do I create a playlist?</a>
+                      <svg class="svg-part" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                      </svg>
+                      
+                    </li>
+                  </ul>
+            </div>
+            <div class="part-one">
+                <ul class="un-list-section-4">
+                    <li class="section-4-list-1">
+                      <a class="a-tag-section-four" href="#">How do I activate Data Saver mode?</a>
+                      <svg class="svg-part" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                      </svg>
+                      
+                    </li>
+                  </ul>
+            </div>
+            <div class="part-one">
+                <ul class="un-list-section-4">
+                    <li class="section-4-list-1">
+                      <a class="a-tag-section-four" href="#">Is it only possible to shuffle play music?</a>
+                      <svg class="svg-part" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                      </svg>
+                      
+                    </li>
+                  </ul>
+            </div>
+            <div class="part-one">
+                <ul class="un-list-section-4">
+                    <li class="section-4-list-1">
+                      <a class="a-tag-section-four" href="#">Where can I find Podcasts?</a>
+                      <svg class="svg-part" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                      </svg>
+                      
+                    </li>
+                  </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="section-4">
+        <h1 class="section-4-text">Ready? Let’s play.</h1>
+        <div class="button-space-2">
+            <a href="https://www.spotify.com/in-en/signup"><button class="button-text">GET SPOTIFY FREE</button></a>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-class">
+        <div class="footer-image">
+            <img class="image-class" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoN-_h9cxRRk5xus-dcEb8PU6KFOpDeZ5NaQ&usqp=CAU" alt="" sizes="16x16" rel="icon">
+        </div>
+        <div class="footer-list">
+            <ul class="list-class">
+                <li class="list-head">COMPANY</li>
+                <li class="list-part">About</li>
+                <li class="list-part">Jobs</li>
+                <li class="list-part">For the Record</li>
+                <li class="list-part"></li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <ul class="list-class">
+                <li class="list-head">COMMUNITIES</li>
+                <li class="list-part">For Artists</li>
+                <li class="list-part">Developers</li>
+                <li class="list-part">Advertising</li>
+                <li class="list-part">Investors</li>
+                <li class="list-part">Vendors</li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <ul class="list-class">
+                <li class="list-head">USEFUL LINKS</li>
+                <li class="list-part">Support</li>
+                <li class="list-part">Jobs</li>
+                <li class="list-part">Web Player</li>
+                <li class="list-part">Free Mobile App</li>
+            </ul>
+        </div>
+        <div class="social-logo">
+            <div class="insta"><img src="images/instagram.svg" alt="" style="width: 30px ;"></div>
+            <div class="insta"><img src="images/twitter.svg" alt="" style="width: 30px ;"></div>
+            <div class="insta"><img src="images/facebook.svg" alt="" style="width: 30px ;"></div>
+        </div>
+    </div>
+    <div class="footer-end">
+          <div class="end-left">
+                <li>Legal</li>
+                <li>Privacy Center</li>
+                <li>Privacy Policy</li>
+                <li>Cookies</li>
+                <li>About Ads</li>
+          </div> 
+          <div class="end-right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zm48 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0S512 114.6 512 256z"/></svg>
+
+          </div> 
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+

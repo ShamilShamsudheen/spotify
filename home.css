@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background:black;      
+}
+.header-content{
+    background:black;
+    width:94%;
+    height: 80px;
+    margin-left: 6%;
+
+}
+.logo-image{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+}
+.logo-part{
+    width: 50%;
+    
+    align-items: center;
+    display: flex;
+    float: left;
+}
+body{
+    width: 100%;
+    height: 709px;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg)  center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.section-one{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+.section-one-left{
+    width: 42%;
+    height: 600px;
+    
+}
+.phone-symbol{
+    margin-top: 15%;
+    width: 281.37px;
+    height: 572.96px;
+    background: white;
+    margin-left: 26%;
+    border-radius: 45px;
+}
+.phone-sensor{
+    width: 44.63px;
+    height: 5.82px;
+    background: black;
+    top: 30px;
+    margin-top: -558px;
+    margin-left: 260px;
+    border-radius: 24px;
+}
+.phone-image{
+    width: 267px;
+    height: 445px;
+    margin-left: 8px;
+    margin-top: 65px;
+}
+.section-one-right{
+    width: 58%;
+    height: 600px;
+    
+    margin-left: 42%;
+    margin-top: -76px;
+}
+.text-part{
+    margin-top: 110px;
+}
+.text-size{
+    
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.button-space{
+    width: 189px;
+    height: 48px;
+    
+  margin-left: 10px;
+    padding-bottom: 3px;
+   
+    background: white;
+    border-radius: 80px;
+}
+.button-space:hover{
+    /* font-size: 100%; */
+    /* width: 100%; */
+}
+.button-text{
+    width: 190px;
+    height: 51px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 100px;
+    background:white;
+    border-color: white;
+    margin-left: -1px;
+}
+.button-text:hover{
+    transform: scale(1.02);
+}
+.section-two{
+    width: 100%;
+    height: 700px;
+    background: white;
+    margin-top: -130px;
+}
+.section-two-text{
+    padding-left: 40%;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.9em;
+    
+}
+.card{
+    padding-top: 2%;
+    margin-left: 3%;
+    width: 80%;
+    height: 200px;
+   
+    
+}
+.card-img-top{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:medium;
+}
+.card-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    height: 50px;
+    color: black;
+    
+}
+.card-part{
+    display:flex;
+    padding-top: 60px;
+}
+.section-three{
+    width: 100%;
+    height: 500px;
+   
+}.secion-three-text{
+    padding-left: 1%;
+    padding-top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.section-four{
+    width: 100%;
+    height: 527px;
+    background:white;
+    
+}
+.section-four-text{
+    padding-left: 43%;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(var(--headline-font-size,40px));
+    line-height: var(var(--headline-line-height,46px));
+    padding-bottom: 66px;
+}
+.section-four-part{
+    width: 80%;
+    height: 300px;
+    background: transparent;
+    margin-left: 10%;
+    
+}
+.part-one{
+    width: 100%;
+    height: 60px;
+    background:white
+    
+}
+.part-one:hover{
+    background:#f7fcfc;
+}
+.a-tag-section-four{
+   
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-4-list-1{
+    list-style-type: none;
+   
+}
+.a-tag-section-four:hover{
+    text-decoration: underline;
+}
+.part-one:hover{
+    color: rgb(31, 31, 27);
+}
+.svg-part{
+    width: 20px;
+    margin-left: 1000px;
+   margin-top: -40px;
+    color: black;
+    padding-bottom: 15px;
+}
+.un-list-section-4{
+    padding-top: 34px;
+}
+.section-4{
+    width: 100%;
+    height: 300px;
+    margin-top: -96px;
+    background-image: url(https://www.scdn.co/i/free/lets-play.svg);
+}
+.section-4-text{
+    margin-left: 390px;
+    margin-top: 260px;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70PX;
+    color: white;
+}
+.button-space-2{
+    padding-left: 550px;
+}
+.footer-class{
+    width: 100%;
+    height: 300px;
+    background: black;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.footer-image{
+    width: 10%;
+}
+.image-class{
+    width: 150px;
+    height: 50px;
+    
+}
+.footer-list{
+    width: 15%;
+    margin-left: 20px;
+}
+.list-class{
+
+}
+.list-head{
+    color: rgb(114, 103, 103);
+    font-size: small;
+    font-weight: bold;
+}
+.list-part{
+    color: white;
+    font-size: medium;
+    font
+}
+.footer-list li{
+    line-height: 50px;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.social-logo{
+    
+    display: flex;
+}
+.logo-footer{
+    width: 10px;
+    height: 10px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.insta{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.footer-end{
+    width: 100%;
+    height: 150px;
+    background: black;
+}
+.footer-end{
+    display: flex;
+   
+}
+.end-left{
+    display: flex;
+    padding-left: 10px;
+}
+.end-left li{
+    color: white;
+list-style: none;
+padding-left: 50px;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 100px;
+color: rgb(112, 105, 105);
+}
+.end-right{
+    background: white;
+    color: black;
+}
+.list-class .list-part:hover{
+    color: green;
+}
+.social-logo insta:hover{
+    color: green;
+}
+.end-left li:hover{
+    color: green;
+}
